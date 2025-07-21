@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+db:
+  host: "db"
+  port: 5432
+  user: "user"
+  password: "pass"
+  name: "appdb"
+
+jwt:
+  secret: "supersecret"
+  access_token_ttl: "15m"
+  refresh_token_ttl: "720h"
